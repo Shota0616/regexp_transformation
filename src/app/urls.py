@@ -19,4 +19,5 @@ from django.urls import path, include
 # urlの指定
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', include('calculation.urls')),
 ]
